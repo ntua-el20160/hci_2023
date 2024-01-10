@@ -1,0 +1,41 @@
+name: moodj2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  provider: ^6.1.1
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Just Another Hand
+      fonts: 
+        - asset: assets/fonts/JustAnotherHandRegular.ttf
+          weight: 400
+    - family: Katibeh
+      fonts: 
+        - asset: assets/fonts/KatibehRegular.ttf
+          weight: 400
+    - family: Neuton
+      fonts: 
+        - asset: assets/fonts/NeutonRegular.ttf
+          weight: 400
+    - family: Kurale
+      fonts: 
+        - asset: assets/fonts/KuraleRegular.ttf
+          weight: 400
